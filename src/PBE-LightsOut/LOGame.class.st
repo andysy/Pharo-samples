@@ -32,6 +32,12 @@ Class {
 	#category : #'PBE-LightsOut'
 }
 
+{ #category : #accessing }
+LOGame >> cellsPerSide [ 
+  "Number of cells along each side of the game"
+	^10
+]
+
 { #category : #initialization }
 LOGame >> initialize [
 	| sampleCell width height n |
